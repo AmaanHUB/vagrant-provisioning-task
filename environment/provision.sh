@@ -5,20 +5,8 @@
 
 sudo apt update && sudo apt upgrade
 
-# Install nginx
-sudo apt install nginx -y
-
-# Install git
-sudo apt install git -y
-
-# Install nodejs
-sudo apt install nodejs -y
-
-# Install npm (needs to do separately)
-sudo apt install npm -y
-
-# Install MongoDb
-sudo apt install mongodb -y
+# Install Ubuntu packages
+sudo apt install $(cat packages.txt) -y
 
 # Install pm2 with npm
 sudo npm install pm2
