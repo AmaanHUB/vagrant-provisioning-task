@@ -20,7 +20,7 @@ sudo apt install npm -y
 # Install MongoDb
 sudo apt install mongodb -y
 
-# Install pm2 with npm
+# Install pm2 with npm to pass test
 sudo npm install pm2
 
 # Restart nginx just in case

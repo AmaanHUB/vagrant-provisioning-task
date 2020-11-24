@@ -1,4 +1,4 @@
-# Vagrant Provisioning Task With A JS App
+# Vagrant Provisioning Task With A NodeJS App
 
 ## Requirements
 * Vagrant
