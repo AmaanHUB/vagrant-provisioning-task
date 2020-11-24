@@ -33,4 +33,5 @@ chmod +x environment/provision.sh
 
 * Check if the webpage exists
 * In your browser, type in `testing.local:3000`
+* And for an index of a fibonacci sequence, try `testing.local:3000/fibonacci/<index>` where `<index>` is an integer
 
