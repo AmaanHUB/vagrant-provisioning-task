@@ -8,6 +8,9 @@
 * Make sure these are installed before doing any of this
 * These can be installed from your relevant package manager
 
+## Introduction
+
+This should be a simple way to run an app written for Sparta Global.
 
 ## Get What You Need
 
@@ -20,6 +23,11 @@ vagrant up
 
 * **Congratulations, everything should be working now**
 
+
+* N.B. You may need to change the permissions on the `provision.sh` file to make it executable
+```
+chmod +x environment/provision.sh
+```
 
 ## Check
 
